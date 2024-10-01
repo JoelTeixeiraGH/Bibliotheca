@@ -1,0 +1,33 @@
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+.row-fp {
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.block {
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 2em;
+    margin-top: 0.6em;
+    margin-right: 2em;
+    width: 18em;
+    height: 8em;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    margin-left: 0.5em;
+    font-size: 25px;
+    max-width: 4em;
+}

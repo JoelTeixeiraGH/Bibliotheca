@@ -1,0 +1,77 @@
+.side-bar {
+    border: 3px solid black;
+}
+
+.fake-photo {
+    width: 100px;
+    height: 128px;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(23, 23, 23);
+}
+
+.buttons {
+    width: fit-content;
+    margin-left: 2em;
+    margin-right: 1em;
+}
+
+.settings-button {
+    width: fit-content;
+    margin: auto;
+    padding-top: 10.3em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-bar {
+    /* ... seus estilos existentes ... */
+
+    transition: width 0.3s ease;
+    /* Adiciona uma transição suave para a largura */
+}
+
+.expanded .button {
+    opacity: 1;
+    /* Exibe os itens da barra lateral com opacidade total quando expandido */
+    transform: translateX(0);
+    /* Mostra os itens da barra lateral quando expandido */
+}
+
+.collapsed .button {
+    opacity: 0;
+    /* Oculta os itens da barra lateral com opacidade zero quando recolhido */
+    transform: translateX(-100%);
+    /* Esconde os itens da barra lateral quando recolhido */
+}
+
+.settings-button {
+    /* ... seus estilos existentes ... */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    /* Adiciona transições suaves para a opacidade e transformação */
+}
+
+.collapsed .settings-button {
+    opacity: 0;
+    /* Oculta o botão de configurações com opacidade zero quando recolhido */
+    transform: translateX(-100%);
+    /* Esconde o botão de configurações quando recolhido */
+}
+
+.toggle-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    /* Adiciona uma transição suave para o botão de recolher */
+}
+
+.collapsed .toggle-button {
+    transform: translateX(-100%);
+    /* Esconde o botão de recolher quando recolhido */
+}

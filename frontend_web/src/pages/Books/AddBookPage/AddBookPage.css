@@ -1,0 +1,95 @@
+
+.description {
+    font-size: 30px;
+    margin-left: 0.4em;
+}
+
+.div-icon-span {
+    display: flex;
+    align-items: center;
+}
+
+.form-field {
+    position: relative;
+    display: inline-block;
+    margin-top: 2em;
+}
+
+.icon {
+    position: absolute;
+    right: 0;
+    margin-right: 0.5em;
+}
+
+.search-bar {
+    border-radius: 0.8em;
+    width: 16em;
+}
+
+.space {
+    border: 3px solid black;
+    margin-top: 2em;
+    width: fit-content;
+    padding: 4em;
+    padding-bottom: 2em;
+}
+
+div.inline {
+    display: inline-block;
+}
+
+div.float-right {
+    float: right;
+    margin-left: 4em;
+}
+
+.zero-mb {
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+
+.separation {
+    margin-bottom: 1.5em;
+}
+
+.center-content {
+    margin-top: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border: 3px solid black;
+    border-radius: 1em;
+}
+
+.text-input {
+    width: 15em;
+}
+
+.add-element-button {
+    background-color: transparent;
+    border: 0px;
+}
+
+select {
+    border: 3px solid black;
+}
+
+.pages {
+    width: 5em;
+}
+
+.add-button {
+    width: 10em;
+    border: 3px solid black;
+    border-radius: 1em;
+    font-weight: 1000;
+    font-size: x-large;
+    background-color: transparent;
+}
+
+span {
+    margin-left: 0.5em;
+}

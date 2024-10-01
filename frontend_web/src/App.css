@@ -1,0 +1,36 @@
+/* App.css */
+
+.App {
+    display: flex;
+    height: 100vh; /* 100% da altura da viewport */
+  }
+  
+  .left-column {
+    flex-shrink: 0; /* A barra lateral não deve encolher quando o espaço é limitado */
+  }
+  
+  .right-column {
+    flex-grow: 1; /* O conteúdo deve ocupar o restante do espaço disponível */
+    overflow-y: auto; /* Adicionado scroll vertical caso o conteúdo seja maior que a tela */
+  }
+  
+  .screen {
+    padding: 3em;
+    padding-top: 1em;
+    padding-bottom: 20px;
+    margin-top: 80px;
+  }
+  
+
+.button {
+    background: none;
+    border-color: transparent;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.bold-black {
+  font-weight: bold;
+  color: black;
+}
